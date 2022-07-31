@@ -1,0 +1,61 @@
+.dnewDriver {
+    flex: 4;
+    color: #ec3323;
+    margin-left: 10px;
+  }
+  
+  .daddDriverForm {
+    margin-top: 10px;
+  }
+
+  .daddDriverTitlel{
+
+    color: #ec3323;
+    font-weight: 700;
+    font-size: 25px;
+
+  }
+
+  .aler{
+    color: red;
+  }
+  
+  .daddDriverItem {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+   .daddDriverItem > label {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: larger;
+  } 
+  
+   .daddDriverItem > input {
+    padding: 10px;
+    border-radius: 4px;
+    color: black;
+    font-size: medium;
+  } 
+  
+  .daddDriverItem > select {
+    padding: 10px;
+  }
+  
+  .addDriverButtonon {
+    margin-top: 10px;
+    padding: 7px 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-style: double;
+    border-radius: 10px;
+    background-color:  #ec3323;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  

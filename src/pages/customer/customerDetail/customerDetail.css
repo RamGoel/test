@@ -1,0 +1,77 @@
+.dnewUser {
+    flex: 4;
+  }
+  
+  .dnewUserTitle{
+  
+    color: #ec3323;
+    font-weight: 800;
+    font-size: 40px;
+  
+  }
+  
+  .dnewUserForm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .dnewUserItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  
+  
+  .dnewUserItem > label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* .dnewUserItem > input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+  } */
+  
+  .dnewUserGender > input {
+    margin-top: 15px;
+  }
+  
+  .dnewUserGender>label{
+      margin: 10px;
+      font-size: 18px;
+      color: rgb(0, 0, 0);
+  }
+  
+  .dnewUserSelect{
+      height: 40px;
+      border-radius: 5px;
+  }
+  
+  .newUserButton{
+      width: 150px;
+      border: none;
+      background-color: #ec3323;
+      color: white;
+      font-weight: 700;
+      font-size: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      
+      cursor: pointer;
+  }
+  
+  .alphabet{
+    color: red;
+  }
+  input:disabled{
+    background-color: white;
+  }

@@ -1,0 +1,62 @@
+.driverList{
+    flex: 4;
+    font-size: larger;
+    border-radius: 6px;
+}
+
+
+
+.driverListItem{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.driverTitle{
+
+    color:  #ec3323;
+    font-size: 35px;
+}
+
+.driverListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  .headerClrer{
+    background-color:  #ec3323;
+    font-size: larger;
+    color: white;
+  }
+
+.driverAddButton{
+    color:  rgb(248, 246, 246);
+    background-color: #ec3323;
+    margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 5px;
+    font-size: 17px;
+
+}  
+
+
+.driverListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color:  #ec3323;
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.driverListDelete{
+    color:  #ec3323;
+    cursor: pointer;
+}

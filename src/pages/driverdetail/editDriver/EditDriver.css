@@ -1,0 +1,160 @@
+.driver {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .driverTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .driverAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: #ec3323;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .driverContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .driverShow {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .driverUpdate {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+  }
+  
+  .driverShowTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .driverShowImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .driverhowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .driverShowUsername {
+    font-weight: 600;
+  }
+  
+  .driverShowUserTitle {
+    font-weight: 300;
+  }
+  
+  .driverShowBottom{
+      margin-top: 20px;
+  }
+  
+  .driverShowTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+  }
+  
+  .driverShowInfo{
+      display: flex;
+      align-items: center;
+      margin: 20px 0px;
+      color: #444;
+  }
+  
+  .driverhowIcon{
+      font-size: 16px !important;
+  }
+  
+  .driverShowInfoTitle{
+      margin-left: 10px;
+  }
+  
+  .driverUpdateTitle{
+      font-size: 24px;
+      font-weight: 600;
+      color: #ec3323;
+  }
+  
+  .driverUpdateForm{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+  }
+  
+  .driverUpdateItem{
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+  }
+  
+  .driverUpdateItem>label{
+      margin-bottom: 5px;
+      font-size: 18px;
+      color: black;
+  }
+  
+  .driverUpdateInput{
+      border: none;
+      width: 250px;
+      height: 30px;
+      border-bottom: 1px solid gray;
+  }
+  
+  .driverUpdateRight{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  
+  .driverUpdateUpload{
+      display: flex;
+      align-items: center;
+  }
+  
+  .driverUpdateImg{
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-right: 20px;
+  }
+  
+  .driverUpdateIcon{
+      cursor: pointer;
+  }
+  
+  .driverUpdateButton{
+      border-radius: 5px;
+      border: none;
+      margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+      cursor: pointer;
+      background-color: #ec3323;
+      color: white;
+      font-weight: 600;
+  }

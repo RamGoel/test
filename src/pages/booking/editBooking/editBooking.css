@@ -1,0 +1,159 @@
+ .booking {
+  flex: 4;
+  padding: 20px;
+}
+
+.bookingTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bookingAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.bookingContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.bookingShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.bookingUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 20px;
+}
+
+.bookingShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.bookingShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bookingShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.bookingShowUsername {
+  font-weight: 600;
+}
+
+.bookingShowUserTitle {
+  font-weight: 300;
+}
+
+.bookingShowBottom{
+    margin-top: 20px;
+}
+
+.bookingShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+
+.bookingShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+
+.bookingShowIcon{
+    font-size: 16px !important;
+}
+
+.bookingShowInfoTitle{
+    margin-left: 10px;
+}
+
+.bookingUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bookingUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bookingUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.bookingUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.bookingUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.bookingUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bookingUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+
+.bookingUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.bookkingUpdateIcon{
+    cursor: pointer;
+}
+
+.bookingUpdateTitle{
+  color:#ec3323
+  
+}
+
+.bookingUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #ec3323;
+    color: white;
+    font-weight: 600;
+} 

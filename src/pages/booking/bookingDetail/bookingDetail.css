@@ -1,0 +1,61 @@
+.dnewBooking {
+    flex: 4;
+  }
+  
+  .dnewBookingForm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .dnewBookingItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  .dnewBookingItem > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+  }
+  
+  .dnewBookingItem > input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+  
+  .dnewBookingGender > input {
+    margin-top: 15px;
+  }
+  
+  .dnewBookingGender>label{
+      margin: 10px;
+      font-size: 18px;
+      color: rgb(31, 30, 30);
+  }
+
+  .dnewBookingTitle{
+
+    color: #ec3323;
+  }
+  
+  .dnewBookingSelect{
+      height: 40px;
+      border-radius: 5px;
+  }
+
+  .alphabetz{
+    color:red
+  }
+  
+  
+
+  .alertz{
+
+    color: red;
+  }

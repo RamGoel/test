@@ -1,0 +1,102 @@
+  .bookingList{
+    flex: 4;
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+.bookingTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .bookingTitle{
+
+    color: #ec3323;
+  }
+
+  .bookingAddButtonn {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: #ec3323;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+
+.bookingListItem{
+    display: flex;
+    align-items: center;
+}
+
+.bookingListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .headerClr{
+    background-color:  #ec3323;
+    font-size: larger;
+    color: white;
+  }
+
+  .headerClor{
+    background-color:  #ec3323;
+    font-size: larger;
+    color: white;
+  }
+
+
+.bookingListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3868c2;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.bookingListAccept{
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.bookingListAccept:disabled{
+  opacity: 0.3;
+}
+
+.bookingListReject{
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #272626;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.bookingListReject:disabled{
+  opacity: 0.3;
+}
+
+.bookingListDelete{
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #ec3323;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+} 

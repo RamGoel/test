@@ -1,0 +1,149 @@
+.productt {
+  flex: 4;
+  padding: 20px;
+  flex-direction: column;
+
+
+}
+
+.productTitlee{
+  color: #ec3323;
+
+
+}
+
+.productTitleContainerr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ec3323;
+
+}
+
+.productAddButtonn {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color:  #ec3323;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.productTop {
+  display: flex;
+}
+
+.productTopLeft,
+.productTopRight {
+  flex: 1;
+}
+
+.productTopRight {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.productInfoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.productInfoTop {
+  display: flex;
+  align-items: center;
+}
+
+.productName {
+  font-weight: 600;
+}
+
+.productInfoBottom {
+  margin-top: 10px;
+}
+
+.productInfoItem {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productInfoValue {
+  font-weight: 300;
+}
+
+.productBottomm {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  flex-direction: column;
+
+
+}
+
+.productFormm {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+.productFormLeftt {
+  display: flex;
+  flex-direction: column;
+}
+
+.productFormLeftt > label {
+  margin-bottom: 10px;
+  
+  color: rgb(0, 0, 0);
+  font-size: larger;
+}
+
+.productFormLeftt > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+  color: black;
+}
+
+.productFormLeftt >select{
+  margin-bottom: 10px;
+}
+
+.productUploadImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.productFormRightt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productUpload{
+  display: flex;
+  align-items: center;
+}
+
+.productButtonn{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ec3323;
+  color:white;
+  font-weight: 600;
+  cursor: pointer;
+}
